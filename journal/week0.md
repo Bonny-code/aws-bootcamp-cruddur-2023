@@ -18,3 +18,7 @@ AWS BUDGET AND BILLING
 
 AWS CLOUDWATCH
 ![Cloudwatch Alarm](https://user-images.githubusercontent.com/75304701/219489780-776a97f0-eceb-490a-afcd-1eddbfbb74d7.png)
+
+
+Flow chart sketch
+![sketch](https://user-images.githubusercontent.com/75304701/219493644-f9a99301-79ec-42f7-b6a5-107f89511156.jpg)
