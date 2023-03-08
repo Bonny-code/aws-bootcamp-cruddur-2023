@@ -12,3 +12,6 @@ I finally impemented changes to my custom page and used aws cli to set the crede
 and i was finally able to log into the app with the above credentails 
 ![2023-03-07 (4)](https://user-images.githubusercontent.com/75304701/223389892-0a90a6d7-9447-41dc-ae58-161131000838.png)
 
+and i was able to log in with my name and usernam showing
+
+![2023-03-07 (5)](https://user-images.githubusercontent.com/75304701/223635400-81c0b868-b343-4d61-91a3-0dc436a8cd86.png)
