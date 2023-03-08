@@ -15,3 +15,22 @@ and i was finally able to log into the app with the above credentails
 and i was able to log in with my name and usernam showing
 
 ![2023-03-07 (5)](https://user-images.githubusercontent.com/75304701/223635400-81c0b868-b343-4d61-91a3-0dc436a8cd86.png)
+
+I was able to sign up and made it to the confimation page as shown below
+![2023-03-08](https://user-images.githubusercontent.com/75304701/223847556-930c25b5-d194-4096-a212-2bab4945c26a.png)
+
+here we have the unconfirmed user
+
+![2023-03-08 (1)](https://user-images.githubusercontent.com/75304701/223847866-aafb59cb-8101-49da-a1db-efd790eb0d39.png)
+
+I was able to recieve a verification email as hsown below
+![2023-03-08 (2)](https://user-images.githubusercontent.com/75304701/223848077-f99bc6eb-7f40-4e03-938d-385f5d65eca9.png)
+
+After using the verification code, the user was finally confirmed as shown below
+![2023-03-08 (3)](https://user-images.githubusercontent.com/75304701/223848418-e1987bb9-069a-46d1-89f7-1b6cf031ed75.png)
+
+One of the major challenges i faced was in implementing jwt token, i was not able to get the authentication message in the terminal since my backend port was not beign served so i had to try and debug it.
+
+
+
+
