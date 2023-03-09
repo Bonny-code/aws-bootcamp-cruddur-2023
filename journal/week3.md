@@ -1,5 +1,14 @@
 # Week 3 — Decentralized Authentication
 
+
+I started by watching Ashish's Decentralised Authentication best practices from a security perspective and here are a few takeways from the video.
+Learnt about federated identity from the security video and SAML signge sign on.
+User lifecycle management in the security best practices.
+Token lifecycle management in security best practices.
+Access token should be limited and their lifecycle as well.
+No sensitive info on jwt tokens.
+Authentication AuthN and authorisation AuthZ.
+
 This week was all about decentralised authentication using amazon cognito and amplify. I started by watching the first live video and was able to install and save aws amplify.
 I continued by going into the console and creating a user pool with aws cognito name cruddur-user-pool.![2023-03-07 (2)](https://user-images.githubusercontent.com/75304701/223380323-f920109b-ec57-4ade-a22c-39fabe213a17.png)
 Then i implemented some changes in the code's dockoer-compose file, app.js, SigninPage.js, HomeFeed.js and others.
