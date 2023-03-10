@@ -40,6 +40,16 @@ After using the verification code, the user was finally confirmed as shown below
 
 One of the major challenges i faced was in implementing jwt token, i was not able to get the authentication message in the terminal since my backend port was not beign served so i had to try and debug it.
 
+I was able to debug and make the backend work as the prot was finally beign served. It was a spelling error.
+
+![2023-03-10](https://user-images.githubusercontent.com/75304701/224286969-f18205ec-c124-4026-b991-8828ae47165e.png)
+
+
+
+I later on watched the video on improving the UI and implemented all the css changes but i had a problem as the contents of my homefeedpage was not displayed, i will work on that today.
+
+Finally, i watched Ashish's video on securing Amazon rds databases were i was able to create and connect to a postgres database following security best practices.
+
 
 
 
