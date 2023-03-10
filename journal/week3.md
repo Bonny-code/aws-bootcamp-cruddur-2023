@@ -49,6 +49,7 @@ I was able to debug and make the backend work as the prot was finally beign serv
 I later on watched the video on improving the UI and implemented all the css changes but i had a problem as the contents of my homefeedpage was not displayed, i will work on that today.
 
 Finally, i watched Ashish's video on securing Amazon rds databases were i was able to create and connect to a postgres database following security best practices.
+learnt the diference between reltional and non-relational databases and making sure you are creating the database in the right region.
 
 
 
