@@ -100,19 +100,20 @@ class Db:
           return json[0]
 
   def query_wrap_object(self,template):
-    sql = '''
-  (SELECT COALESCE(row_to_json(object_row),'{}'::json) FROM (
-  {template}
-  ) object_row);
-  '''
-  return sql
+    sql = f"""
+    (SELECT COALESCE(row_to_json(object_row),'{{}}'::json) FROM (
+    {template}
+    ) object_row);
+    """
+    return sql
+  
   def query_wrap_array(self,template):
     sql = '''
   (SELECT COALESCE(array_to_json(array_agg(row_to_json(array_row))),'[]'::json) FROM (
   {template}
   ) array_row);
   '''
-  return sql
+    return sql
 
   def print_sql_err(self,err):
     # get details about the exception
