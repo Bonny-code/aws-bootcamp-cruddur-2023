@@ -3,6 +3,14 @@
 - Application: Cruddur
 - Cohort: 2023-A1
 
+"loadBalancers": [
+        {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:781236253714:targetgroup/cruddur-frontend-react-js/6c5258c529986d71",
+            "containerName": "frontend-react-js",
+            "containerPort": 3000
+        }
+     ],
+
 This is the starting codebase that will be used in the FREE AWS Cloud Project Bootcamp 2023
 
 ![Cruddur Graphic](_docs/assets/cruddur-banner.jpg)
