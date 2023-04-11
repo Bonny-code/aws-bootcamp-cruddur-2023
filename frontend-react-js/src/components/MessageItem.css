@@ -29,6 +29,7 @@ background: rgba(255,255,255,0.08)
   margin-right: 8px;
 }
 
+
 .message_item .message_meta {
   display: flex;
   justify-content: space-between;
