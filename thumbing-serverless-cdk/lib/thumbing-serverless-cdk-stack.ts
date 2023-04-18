@@ -58,6 +58,11 @@ export class ThumbingServerlessCdkStack extends cdk.Stack {
     });
     return bucket;
   }
+  
+  importBucket(bucketName: string): s3.IBucket {
+    const bucket = s3.Bucket.fromBucketName(this,"AssetsBucket",bucketName);
+    return bucket;
+  }
 
   createLambda(folderIntput: string, folderOutput: string, functionPath: string, bucketName: string): lambda.IFunction {
     const logicalName = 'ThumbLambda';
