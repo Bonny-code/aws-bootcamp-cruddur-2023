@@ -9,8 +9,8 @@ import { Construct } from 'constructs';
 import * as process from 'process';
 
 //import will not work for dotenv you have to use require.
-//const dotenv = require('dotenv');
-//dotenv.config();
+const dotenv = require('dotenv');
+dotenv.config();
 
 export class ThumbingServerlessCdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
