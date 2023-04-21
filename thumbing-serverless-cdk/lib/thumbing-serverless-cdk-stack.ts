@@ -47,7 +47,7 @@ export class ThumbingServerlessCdkStack extends cdk.Stack {
     this.createSnsSubscription(snsTopic,webhookUrl)
 
     // add our s3 event notifications
-    this.createS3NotifyToLambda(folderInput,lambda,uploadsBucket)
+    //this.createS3NotifyToLambda(folderInput,lambda,uploadsBucket)
     this.createS3NotifyToSns(folderOutput,snsTopic,assetsBucket)
 
     // create policies
@@ -90,15 +90,17 @@ export class ThumbingServerlessCdkStack extends cdk.Stack {
     return lambdaFunction;
   } 
 
+  /*
   createS3NotifyToLambda(prefix: string, lambda: lambda.IFunction, bucket: s3.IBucket): void {
     const destination = new s3n.LambdaDestination(lambda);
     bucket.addEventNotification(
       s3.EventType.OBJECT_CREATED_PUT,
       destination//,
-      //{prefix: prefix} // folder to contain the original images
+      //{prefix: prefix}
+       
     )
   }
-
+  */
   createPolicyBucketAccess(bucketArn: string){
     const s3ReadWritePolicy = new iam.PolicyStatement({
       actions: [
